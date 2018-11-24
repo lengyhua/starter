@@ -7,9 +7,9 @@ Just learning git with this project
     git status -s
  ```
 ## commit the change:
-    `git commit -a -m "Messages for this commit"`
+    git commit -a -m "Messages for this commit"
 ## push them to the public repository:
-    `git push`
+    git push
 ## add default username and password:
 ```
     a. touch ~/.git-credentials
