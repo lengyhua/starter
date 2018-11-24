@@ -8,3 +8,9 @@ Just learning git with this project
     git commit -a -m "Messages for this commit"
 3. push them to the public repository:
     git push
+4. add default username and password:
+    a. touch ~/.git-credentials
+    b. vi ~/.git-credentials
+       https://{username}:{password}@github.com
+    c. git config --global credential.helper store
+
